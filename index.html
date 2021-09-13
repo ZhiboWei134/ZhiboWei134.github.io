@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript"></script>
+</head>
+<body>
+
+<div id="app">
+
+<div class="container">
+  <div class="header clearf">
+
+     <div class="logo c-2 ">
+        <img src="logo.png" />
+     </div>
+
+   
+     <div class="styleBtn fr">
+        <div class="style_1 fl" @click="toStyle1()" v-bind:class="{active:isStyle === 'isStyle_1'}">
+          <div class="lcube" v-bind:class="{lActive:isStyle === 'isStyle_1'}"></div>
+          <div class="lcube" v-bind:class="{lActive:isStyle === 'isStyle_1'}"></div>
+        </div>
+        <div class="style_2 fl clearf" @click="toStyle2()">
+          <div class="scube" v-bind:class="{sActive:isStyle === 'isStyle_2'}"></div>
+          <div class="scube" v-bind:class="{sActive:isStyle === 'isStyle_2'}"></div>
+          <div class="lcube" v-bind:class="{lActive:isStyle === 'isStyle_2'}"></div>
+        </div>
+        <div class="style_3 fl clearf" @click="toStyle3()">
+          <div class="scube" v-bind:class="{sActive:isStyle === 'isStyle_3'}"></div>
+          <div class="scube" v-bind:class="{sActive:isStyle === 'isStyle_3'}"></div>
+          <div class="scube" v-bind:class="{sActive:isStyle === 'isStyle_3'}"></div>
+          <div class="scube" v-bind:class="{sActive:isStyle === 'isStyle_3'}"></div>
+       </div>
+          <div class="style_4 fl clearf" @click="toStyle4()">
+          <div class="lcube" v-bind:class="{lActive:isStyle === 'isStyle_4'}"></div>
+          <div class="scube" v-bind:class="{sActive:isStyle === 'isStyle_4'}"></div>
+          <div class="scube" v-bind:class="{sActive:isStyle === 'isStyle_4'}"></div>
+       </div>
+     </div> 
+     <div class="collectBtn fr"><img src="collectBtn.png" @click="deleteAll()"/></div>
+  </div>
+ </div>
+
+  <div class="container clearf" id="spaces">
+    <textarea class="spaceBox c-4 fl">{{Text_1}}</textarea>
+    <textarea class="spaceBox c-6 fr">{{Text_2}}</textarea>
+    <textarea class="spaceBox c-10 fl">{{Text_3}}</textarea>
+    <textarea class="spaceBox c-10 fl invisible">{{Text_4}}</textarea>
+  </div>
+
+</div>
+
+
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script type="text/javascript" src="vue.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

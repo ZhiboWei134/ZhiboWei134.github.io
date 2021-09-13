@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.container {
+	margin-left: 30px;
+	width: 95%;
+}
+
+.clearf:after,.clearf:before {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.c-1,.c-2,.c-3,.c-4,.c-5,.c-6,.c-7,.c-8,.c-9,.c-10{
+  float: left;
+}
+
+.c-1{
+  width: 10%;
+}
+.c-2{
+  width: 20%;
+}
+.c-3{
+  width: 30%;
+}
+.c-4{
+  width: 40%;
+}
+.c-5{
+  width: 50%;
+}
+.c-6{
+  width: 60%;
+}
+.c-7{
+  width: 70%;
+}
+.c-8{
+  width: 80%;
+}
+.c-9{
+  width: 90%;
+}
+.c-10{
+  width: 100%;
+}
+
+.invisible {
+  display: none;
+}
+
+.logo{
+    height: 55px;
+}
+.styleBtn {
+	margin-top: 10px;
+}
+.styleBtn > div {
+	margin-left: 50px;
+}
+
+.collectBtn {
+	margin-top: 8px;
+	margin-right: 50px;
+}
+
+.scube {
+	background-color: black;
+	width: 18px;
+	height: 11px;
+	float: left;
+	margin: 2px;
+	transition: all 0.1s ease;
+
+}
+
+.lcube {
+	background-color: black;
+	width: 40px;
+	height: 11px;
+	float: left;
+	margin: 2px;
+	transition: all 0.1s ease;
+}
+
+.spaceBox {
+	height: 300px;
+	margin-top: 15px;
+	border: 1.5px solid;
+	font-size: 20px;
+}
+
+.style_1,.style_2,.style_3,.style_4 {
+	width: 60px;
+	height: 18px;
+}
+
+.fr {
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+
+.lActive {
+	margin: 3px;
+	width: 42px;
+	background-color: red;
+}
+.sActive {
+	background-color: red;
+	margin: 3px;
+}
