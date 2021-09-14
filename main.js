@@ -2,7 +2,7 @@
 	el: '#app',
 	data: {
 		isStyle: '',
-		Text_1:'李炳萱是瓜瓜',
+		Text_1:'',
         Text_2:'',
         Text_3:'',
         Text_4:''
